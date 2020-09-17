@@ -12,7 +12,7 @@
 + 정재훈 : 저의 역할도 기획 + 개발 + 디자인 + 마케팅 입니다.
 
 
-## 주요 개발 흐름 (초안)
+## 주요 개발 흐름 (1차 목표)
 1. CORPCODE xml를 데이터베이스화 (Sqlite, conedata, realm 중 선택)
     1. 전자공시시스템 API(공시정보 4번):  회사명&회사코드 있는 xml받기
     [https://opendart.fss.or.kr/api/corpCode.xml?crtfc_key=](https://opendart.fss.or.kr/api/corpCode.xml?crtfc_key=74c1b188f83c314bb628c5d50a638cbde8f4ebb5)(키값)
@@ -32,3 +32,5 @@
     1. C : 원하는 값만 변수에 저장
     2. V : 값을 숫자로 보여주기
     3. V : 값을 그림으로 보여구기
+    
+    
