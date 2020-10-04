@@ -12,17 +12,23 @@ class SelectedViewController: UIViewController {
     // MARK: - Properties
 
     var list: CorporationList?
+<<<<<<< HEAD
     @IBOutlet weak var centerLabel: UILabel!
+=======
+>>>>>>> 5b3037e8d91f0555d823c0cd356e59cc166d6410
     
     
     // MARK: - Lifecycle
     
+<<<<<<< HEAD
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         centerLabel.text = list?.name
     }
     
+=======
+>>>>>>> 5b3037e8d91f0555d823c0cd356e59cc166d6410
     override func viewDidLoad() {
         super.viewDidLoad()
 
