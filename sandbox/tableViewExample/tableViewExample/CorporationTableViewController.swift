@@ -11,11 +11,12 @@ struct CorporationList {
     let code : String
     let name : String
     let modifyDate : String
-    
 }
 
 
 class CorporationTableViewController: UITableViewController {
+    
+    // MARK: - Properties
 
     let corporList = [
         CorporationList(code: "00000001", name: "한화생명", modifyDate: "2020-08-09"),
@@ -31,14 +32,14 @@ class CorporationTableViewController: UITableViewController {
         CorporationList(code: "00000011", name: "삼성바이오로직스", modifyDate: "2020-08-19"),
         CorporationList(code: "00000012", name: "테슬라", modifyDate: "2020-08-19"),
     ]
+    
+    
+    // MARK: - Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        
     }
 
     // MARK: - Table view data source
@@ -59,7 +60,6 @@ class CorporationTableViewController: UITableViewController {
         let item = corporList[indexPath.row]
         cell.textLabel?.text = item.name
         
-
         return cell
     }
    
@@ -99,14 +99,18 @@ class CorporationTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "ShowDetail", let detailVC = segue.destination as? SelectedViewController {
+            if let cell = sender as? UITableViewCell,
+               let index = tableView.indexPath(for: cell) {
+                detailVC.list = corporList[index.row]
+            }
+            
+        }
     }
-    */
-
+    
+    
 }
