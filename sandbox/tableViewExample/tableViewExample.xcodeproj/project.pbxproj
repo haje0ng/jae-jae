@@ -14,7 +14,6 @@
 		14AA5BD52529603900AD566C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AA5BD42529603900AD566C /* Assets.xcassets */; };
 		14AA5BD82529603900AD566C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14AA5BD62529603900AD566C /* LaunchScreen.storyboard */; };
 		14AA5BE1252960A900AD566C /* CorporationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AA5BE0252960A900AD566C /* CorporationTableViewController.swift */; };
-		3D7F9CAD25297657006E23F4 /* SelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F9CAC25297657006E23F4 /* SelectedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		14AA5BD72529603900AD566C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14AA5BD92529603900AD566C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14AA5BE0252960A900AD566C /* CorporationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorporationTableViewController.swift; sourceTree = "<group>"; };
-		3D7F9CAC25297657006E23F4 /* SelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				14AA5BCF2529603700AD566C /* ViewController.swift */,
 				14AA5BD12529603700AD566C /* Main.storyboard */,
 				14AA5BE0252960A900AD566C /* CorporationTableViewController.swift */,
-				3D7F9CAC25297657006E23F4 /* SelectedViewController.swift */,
 				14AA5BD42529603900AD566C /* Assets.xcassets */,
 				14AA5BD62529603900AD566C /* LaunchScreen.storyboard */,
 				14AA5BD92529603900AD566C /* Info.plist */,
@@ -145,7 +142,6 @@
 			files = (
 				14AA5BD02529603700AD566C /* ViewController.swift in Sources */,
 				14AA5BCC2529603700AD566C /* AppDelegate.swift in Sources */,
-				3D7F9CAD25297657006E23F4 /* SelectedViewController.swift in Sources */,
 				14AA5BE1252960A900AD566C /* CorporationTableViewController.swift in Sources */,
 				14AA5BCE2529603700AD566C /* SceneDelegate.swift in Sources */,
 			);
